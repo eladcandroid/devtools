@@ -124,12 +124,12 @@ importers:
       unimport: ^3.0.3
       unocss: ^0.50.6
       vanilla-jsoneditor: ^0.16.0
-      vis-data: ^7.1.5
+      vis-data: ^7.1.6
       vis-network: ^9.1.5
       vite: '*'
       vite-plugin-inspect: ^0.7.18
       vite-plugin-vue-inspector: ^3.4.0
-      vue-template-promise: ^0.1.1
+      vue-template-promise: ^0.1.2
       vue-tsc: ^1.2.0
       wait-on: ^7.0.1
       which: ^3.0.0
@@ -195,9 +195,9 @@ importers:
       tinyws: 0.1.0_ws@8.13.0
       unocss: 0.50.6_postcss@8.4.21+vite@4.1.4
       vanilla-jsoneditor: 0.16.0
-      vis-data: 7.1.5_uuid@8.3.2+vis-util@5.0.3
-      vis-network: 9.1.5_now7qaxlypckzrck7jglvvumw4
-      vue-template-promise: 0.1.1_vue@3.2.47
+      vis-data: 7.1.6_uuid@8.3.2+vis-util@5.0.3
+      vis-network: 9.1.5_3w2rhn2jcndgqir3vo2wgsxcna
+      vue-template-promise: 0.1.2_vue@3.2.47
       vue-tsc: 1.2.0_typescript@5.0.2
       wait-on: 7.0.1
       which: 3.0.0
@@ -11899,8 +11899,8 @@ packages:
       vfile-message: 3.1.4
     dev: true
 
-  /vis-data/7.1.5_uuid@8.3.2+vis-util@5.0.3:
-    resolution: {integrity: sha512-qgtqXEw6KL8lm1/3BgtDZkT4LEORQSY+NL7Jcc5NtpSxRBaogTm7CGMW3t1aUpczGu9xE7ZuqC/YacPbiprtqg==}
+  /vis-data/7.1.6_uuid@8.3.2+vis-util@5.0.3:
+    resolution: {integrity: sha512-lG7LJdkawlKSXsdcEkxe/zRDyW29a4r7N7PMwxCPxK12/QIdqxJwcMxwjVj9ozdisRhP5TyWDHZwsgjmj0g6Dg==}
     requiresBuild: true
     peerDependencies:
       uuid: ^3.4.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -11910,7 +11910,7 @@ packages:
       vis-util: 5.0.3_35uoz5q4mpcvp75zwg3yfbh37i
     dev: true
 
-  /vis-network/9.1.5_now7qaxlypckzrck7jglvvumw4:
+  /vis-network/9.1.5_3w2rhn2jcndgqir3vo2wgsxcna:
     resolution: {integrity: sha512-owiKboYjCguXHrrJ0yRfjOP/LpavD6hmGGnW6Sgsk36IbFmPjxV1QHmRcpW/BzRNK2fBhttSxMLWbCGow5s7cQ==}
     requiresBuild: true
     peerDependencies:
@@ -11927,7 +11927,7 @@ packages:
       keycharm: 0.4.0
       timsort: 0.3.0
       uuid: 8.3.2
-      vis-data: 7.1.5_uuid@8.3.2+vis-util@5.0.3
+      vis-data: 7.1.6_uuid@8.3.2+vis-util@5.0.3
       vis-util: 5.0.3_35uoz5q4mpcvp75zwg3yfbh37i
     dev: true
 
@@ -12585,8 +12585,8 @@ packages:
       de-indent: 1.0.2
       he: 1.2.0
 
-  /vue-template-promise/0.1.1_vue@3.2.47:
-    resolution: {integrity: sha512-MUJfMCGcm5eDq8bB6jTlS7SXtUtUq3BhnMnXTEbR0hPYOSHMEfhvTmC5ZMDJbaMNVjRKEpBGkep7wX/Kcvi0og==}
+  /vue-template-promise/0.1.2_vue@3.2.47:
+    resolution: {integrity: sha512-O/exEsbPjqtVjp6X2G29KwLP5jHSRU0ddUha8KjAhRJLZpWmCYn2/Z/YyDkvaodDXD3iMdivTuQeKVihvqFSdA==}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
